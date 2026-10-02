@@ -1,0 +1,12 @@
+?- can_buy(100000,red).
+With 80000 you can purchase the red car datsun
+true ;
+false.
+
+?- can_buy(100000,blue).
+With 80000 you can purchase the blue truck ford
+true.
+
+?- can_buy(100000,green).
+false.
+
